@@ -1,0 +1,22 @@
+{
+  "name": "connectme",
+  "version": "1.0.0",
+  "description": "WebSocket connection management library to handle client-server communication in event-based manner or await-query style (using PackMe messages).",
+  "main": "lib/connectme.mjs",
+  "module": "lib/connectme.mjs",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "packme": "github:sourcecaster/packme.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.55.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

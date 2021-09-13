@@ -1,0 +1,24 @@
+{
+	"math_operation": [
+		"add",
+		"subtract",
+		"multiply",
+		"divide"
+	],
+	"introduction": [
+		{
+			"name": "string",
+			"age": "uint8"
+		}
+	],
+	"math_question": [
+		{
+			"operation": "@math_operation",
+			"x": "uint8",
+			"y": "uint8"
+		},
+		{
+			"result": "double"
+		}
+	]
+}

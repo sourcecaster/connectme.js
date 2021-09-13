@@ -1,0 +1,18 @@
+# If you're building an application, you may want to check-in your pubspec.lock
+package-lock.json
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.svn/
+
+# IntelliJ related
+.idea/
+
+# Node.JS related
+**/doc/api/
+node_modules/
+build/
